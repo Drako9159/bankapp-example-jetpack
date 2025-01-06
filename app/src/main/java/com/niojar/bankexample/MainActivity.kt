@@ -83,10 +83,10 @@ fun HomeScreen() {
     }) { padding ->
         Column(modifier = Modifier.padding(padding)) {
             WalletSection()
-            CardSection()
+            //CardSection()
             Spacer(modifier = Modifier.height(16.dp))
-            FinanceSection()
-            CurreniesSection()
+            //FinanceSection()
+            //CurreniesSection()
         }
 
 
