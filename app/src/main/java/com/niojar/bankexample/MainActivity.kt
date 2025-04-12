@@ -29,7 +29,6 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             BankexampleTheme {
-
                 SetBarColor(color = MaterialTheme.colorScheme.background)
                 Surface(
                     modifier = Modifier.fillMaxSize(),
@@ -88,7 +87,5 @@ fun HomeScreen() {
             FinanceSection()
             //CurreniesSection()
         }
-
-
     }
 }
